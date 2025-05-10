@@ -1,6 +1,6 @@
 # Smart Irrigation System By Call Sms
 
-This is a smart irrigation system that uses a soil moisture sensor and a GSM module (SIM900A) to automate irrigation and send SMS alerts. The system controls a water pump through a relay based on soil conditions, aiming to conserve water and reduce manual effort.
+This is a smart irrigation system that uses a soil moisture sensor and a GSM module (SIM900A) to automate irrigation and send SMS alerts. The system controls a water pump through a relay based on soil conditions, aiming to help farmers by operating field by phone this will conserve water and reduce manual effort.
 
 ## Features
 
@@ -16,6 +16,7 @@ This is a smart irrigation system that uses a soil moisture sensor and a GSM mod
 - **Soil Moisture Sensor**
 - **Relay Module**
 - **Water Pump**
+- **Etc:- Jumper wires..**
 - **Temperature Sensor (Optional)**
 
 ## How It Works
@@ -24,7 +25,7 @@ This is a smart irrigation system that uses a soil moisture sensor and a GSM mod
 2. If moisture is below a defined threshold:
    - The microcontroller activates the water pump via relay.
    - An SMS alert is sent using the SIM900A GSM module.
-3. Once adequate moisture is detected, the pump is turned off.
+3. Once soil moisture is detected, the pump is turned off.
 
 ## Technologies Used
 
