@@ -40,5 +40,8 @@ This is a smart irrigation system that uses a soil moisture sensor and a GSM mod
 5. Insert SIM card into GSM module and power the system.
 
 > *Note: Temperature sensor is included but not active in this version.*
+## Author
 
-## Folder Structure
+**Anurag**  
+
+Feel free to fork, use, or improve this project!
