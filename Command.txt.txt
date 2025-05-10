@@ -1,0 +1,27 @@
+Irrigation System Commands
+
+1. STATUS
+   - Description: Requests the current status of the irrigation system.
+   - Usage: Send "status" via SMS to receive the soil moisture level, motor status, and auto irrigation status.
+
+2. AUTO ON
+   - Description: Enables automatic irrigation.
+   - Usage: Send "auto on" via SMS to activate the auto irrigation feature.
+
+3. AUTO OFF
+   - Description: Disables automatic irrigation.
+   - Usage: Send "auto off" via SMS to deactivate the auto irrigation feature.
+
+4. CROP:<crop_name>
+   - Description: Selects a crop and updates the soil moisture threshold.
+   - Usage: Send "crop:wheat", "crop:rice", "crop:maize", or "crop:potato" via SMS to select the respective crop.
+
+5. CHAL
+   - Description: Turns the motor ON.
+   - Usage: Send "chal" via SMS to activate the motor.
+
+6. BAND
+   - Description: Turns the motor OFF.
+   - Usage: Send "band" via SMS to deactivate the motor.
+
+Note: All commands are case-insensitive. You can use any combination of upper and lower case letters.
